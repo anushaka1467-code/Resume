@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffd6e8; /* pastel pink */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Folder style */
+.folder-container {
+    text-align: center;
+}
+
+.folder {
+    font-size: 40px;
+    cursor: pointer;
+    background: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px gray;
+    transition: 0.3s;
+}
+
+.folder:hover {
+    background: #ffe6f0;
+    transform: scale(1.1);
+}
+
+/* Resume popup */
+.resume-box {
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 90%;
+    background: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 10px 10px 20px black;
+}
+
+.close-btn {
+    float: right;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Resume content */
+.resume-content {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.section {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.section h2 {
+    border-bottom: 2px solid black;
+}
+
+/* Internship at bottom */
+.internship {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
